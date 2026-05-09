@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+}
+
+.landing_page {
+  width: 100vw;
+  height: 100vh;
+  background: #e3e3e1;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+.one {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+
+  font-size: 120px;
+  font-weight: 900;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.two {
+  grid-column: 1;
+  grid-row: 3;
+  color: black;
+  position: relative;
+  bottom: 100px;
+  left: 100px;
+}
+
+.three {
+  grid-column: 1;
+  grid-row: 6;
+  color: white;
+  position: relative;
+  bottom: 120px;
+  border-radius: 4px;
+  background-color: black;
+  width: 150px;
+  height: 40px;
+  left: 200px;
+}
+
+.four {
+  grid-column: 2;
+  grid-row: 2 / 3;
+}
+
+.five {
+  grid-column: 3;
+  grid-row: 2;
+  position: relative;
+  top: 190px;
+  height: 300px;
+  object-fit: cover;
+}
+
+img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.header {
+  margin-left: 20px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.show_ {
+  background-color: black;
+  color: white;
+}
+
+.texts {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.sub_header {
+  margin-left: 30px;
+  margin-top: 60px;
+}
+
+.cards_products {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.des {
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+.cta {
+  align-self: flex-end;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.cards_ {
+  border-radius: 12px;
+  overflow: hidden;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .landing_page {
+    display: grid;
+    gap: 20px;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
