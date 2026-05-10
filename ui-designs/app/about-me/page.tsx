@@ -21,7 +21,7 @@ const AboutMe = () => {
               systems powered by React , Next JS, content strategy, and modern
               UIs design. The aim is to develop efficient workflows, scalable
               digital products, and practical solutions for the digital economy.
-              This page shares the progress as the studio continues to grow and
+              This page shares the progress as the my skills continues to grow and
               evolve.
             </p>
           </div>
@@ -38,9 +38,9 @@ const AboutMe = () => {
         <section className="mission">
           <div className="m">M</div>
           <div className="text">
-            A full-stack engineering and quality-driven studio focused on
+            A full-stack engineering and quality-driven focused on
             building reliable, scalable, and user-centered digital systems. The
-            mission is to combine technical precision with thoughtful design to
+            mission is to combine technical skills with thoughtful design to
             create seamless web experiences powered by modern technologies such
             as React, Next.js, and robust backend architectures. With a strong
             foundation in QA and three years of experience across diverse
