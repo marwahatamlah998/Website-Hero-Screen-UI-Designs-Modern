@@ -214,6 +214,7 @@ section {
     grid-template-rows: auto;
   }
 
+
   .container {
     margin-left: 0;
     padding: 10px;
@@ -238,6 +239,11 @@ section {
     position: static;
     width: 100%;
     height: auto;
+  }
+
+
+  .three{
+margin-top: 70px;
   }
 
   .four {

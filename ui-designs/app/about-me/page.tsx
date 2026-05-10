@@ -16,7 +16,7 @@ const AboutMe = () => {
           <img className="three" src="\images\img_about_me_2.jpg" alt="image" />
           <div className="four">
             <h3>Get to know us </h3>
-            <p>
+            <p className="about-me-text">
               I'm Marwa, Full-Stack web Engineer.I focusing on building digital
               systems powered by React , Next JS, content strategy, and modern
               UIs design. The aim is to develop efficient workflows, scalable
