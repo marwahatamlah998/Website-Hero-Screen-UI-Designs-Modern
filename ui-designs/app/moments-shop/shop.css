@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+GB+S+Guides:ital@0;1&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap"); */
+/* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Playwrite+AU+VIC+Guides&family=Playwrite+GB+S+Guides:ital@0;1&display=swap'); */
+
+/* font-family: "Playwrite GB S Guides", cursive; */
+
+body {
+  font-family: "Playwrite GB S Guides", cursive;
+}
+.landing-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Playwrite GB S Guides", cursive;
+}
+
+.landing-flex img {
+  width: 400px;
+  display: block;
+  filter: blur(3px);
+}
+
+.brand {
+  position: absolute;
+  top: 15%;
+  z-index: 3;
+  color: black;
+  font-size: clamp(3rem, 10vw, 12rem);
+  font-weight: 200;
+  text-align: center;
+}
+
+.our-brand {
+  font-weight: 400;
+}
+
+.audience-flex {
+  width: 400px;
+  margin: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+.flex-text-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.flex-text-image img {
+  width: 300px;
+  max-height: 500px;
+  display: block;
+  margin: 20px;
+}
+
+.h1-audience {
+  font-size: clamp(6rem, 15vw, 18rem);
+  color: white;
+  text-transform: uppercase;
+}
+
+.audience-container {
+  background-color: maroon;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.the-values-flex {
+  margin-top: 30px;
+}
+
+.cards_values {
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+}
+
+.cards_ img {
+  width: 300px;
+  max-height: 400px;
+  display: block;
+  margin: 20px;
+}
+
+
+@media (max-width: 1024px) {
+  .landing-flex img {
+    width: 300px;
+  }
+
+  .audience-flex {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .flex-text-image {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards_values {
+    overflow-x: scroll;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .brand {
+    font-size: clamp(2.5rem, 12vw, 6rem);
+    top: 10%;
+  }
+
+  .landing-flex img {
+    width: 90%;
+  }
+
+  .audience-flex {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .flex-text-image {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .h1-audience {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .cards_values {
+    flex-direction: column;
+    align-items: center;
+  }
+}
